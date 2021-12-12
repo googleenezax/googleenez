@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "vBook",
+    "description": ""
+  },
+  "data": [
+    {
+      "name": "Ytuyện mới",
+      "author": "haocero",
+      "path": "https://raw.githubusercontent.com/haocero/vbook-ext/master/truyenmoi/plugin.zip",
+      "version": 1,
+      "source": "https://truyenmoiz.com",
+      "icon": "https://raw.githubusercontent.com/haocero/vbook-ext/master/truyenmoi/icon.png",
+      "description": "Đọc truyện trên trang truyenmoiz.com",
+      "type": "novel",
+      "locale": "vi_VN"
+    }
+  ]
+}
