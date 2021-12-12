@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện mới",
+    "author": "haocero",
+    "version": 1,
+    "source": "https://truyenmoiz.vn",
+    "regexp": "(www.)?(truyenmoiz.vn)/[^/]+/?$",
+    "description": "Truyện mới",
+    "local": "vi-VN",
+	"type": "novel"
+    "language": "javascript"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
