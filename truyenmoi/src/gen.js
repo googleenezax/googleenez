@@ -6,14 +6,14 @@ function execute(url, page) {
     if (doc) {
         var el = doc.select(".list-truyen div[itemscope]");
         var novelList = [];
-        var next = doc.select(".pagination > li.active + li").last().text();
+        var next = doc.select(".pagination > li.page-item.active + li").last().text();
         for (var i = 0; i < el.size(); i++) {
             var e = el.get(i);
             novelList.push({
                 name: e.select(".truyen-title > a").text(),
                 link: e.select(".truyen-title > a").first().attr("href"),
                 description: e.select(".author").text(),
-                cover: e.select("[data-classname=cover]").attr("data-image"),
+                cover: e.select("[data-classname=visible-xs-block]").attr("data-image"),
                 host: "https://truyenmoiz.com",
             });
 
