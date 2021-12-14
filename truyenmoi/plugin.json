@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện mới",
     "author": "haocero",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenmoiz.vn",
     "regexp": "(www.)?(truyenmoiz.vn)/[^/]+/?$",
     "description": "Truyện mới",
