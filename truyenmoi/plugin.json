@@ -3,8 +3,8 @@
     "name": "Truyện mới",
     "author": "haocero",
     "version": 2,
-    "source": "https://truyenmoiz.vn",
-    "regexp": "(www.)?(truyenmoiz.vn)/[^/]+/?$",
+    "source": "https://truyenmoiz.com",
+    "regexp": "(www.)?(truyenmoiz.com)/[^/]+/?$",
     "description": "Truyện mới",
     "local": "vi-VN",
 	"type": "novel"
